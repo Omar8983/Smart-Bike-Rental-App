@@ -40,9 +40,8 @@ Out of scope: reservations, payment gateways, notifications, AI features, and an
 .
 ├── README.md
 ├── docs/
-│   ├── README.md
-│   ├── erd.drawio          (added manually)
-│   └── erd.png             (added manually)
+│   ├── erd.drawio          (editable ERD, to be added)
+│   └── erd.jpeg            (ERD image)
 └── schema/
     ├── 01_create_tables.sql
     └── 03_seed_data.sql
@@ -112,7 +111,7 @@ The reason for each `ON DELETE` choice is written as a comment next to the forei
 
 [Editable ERD](docs/erd.drawio)
 
-![Database ERD](docs/erd.png)
+![Database ERD](docs/erd.jpeg)
 
 ---
 
